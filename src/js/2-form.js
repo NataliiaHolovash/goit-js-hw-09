@@ -10,12 +10,7 @@ const userEmail = feedbackForm.elements.email;
 const userMessage = feedbackForm.elements.message;
 
 function inputHandler(e) {
-  // ? Скажіть, будь-ласка, який запис буде доречніший?
-  // Option-1
-  // formData.email = e.currentTarget.email.value.trim();
-  // formData.message = e.currentTarget.message.value.trim();
-
-  // Option-2
+ 
   formData.email = userEmail.value.trim();
   formData.message = userMessage.value.trim();
 
